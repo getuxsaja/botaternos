@@ -32,6 +32,20 @@ bot.on('login',function(){
 	bot.chat("hello");
 });
 
+function task(i) { 
+	
+  setTimeout(function() { 
+    if(first == true){
+	bot.chat("Gua cuman mau afk doang")
+	first = false;
+	}
+	else{
+		bot.chat("Jangan ganggu aing")
+		first = true;
+	}
+  }, 3600000 * i); 
+} 
+
 bot.on('time', function(time) {
 	if(nightskip == "true"){
 	if(bot.time.timeOfDay >= 13000){
