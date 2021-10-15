@@ -43,7 +43,7 @@ function task(i) {
 		bot.chat("Jangan ganggu ok")
 		first = true;
 	}
-  }, 3600000 * i); 
+  }, 360 * i); 
 } 
 
 bot.on('time', function(time) {
