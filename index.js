@@ -29,7 +29,7 @@ bot.loadPlugin(cmd)
 
 bot.on('login',function(){
 	console.log("Logged In")
-	bot.chat("Hallo gengs. Lagi pada ngapain nih? jawab cok");
+	bot.chat("Hallo gengs. Lagi pada ngapain nih? gua cuman mau afk aja");
 });
 
 function task(i) { 
