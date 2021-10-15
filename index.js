@@ -29,7 +29,7 @@ bot.loadPlugin(cmd)
 
 bot.on('login',function(){
 	console.log("Logged In")
-	bot.chat("hello");
+	bot.chat("Hallo gengs. Lagi pada ngapain nih? jawab cok");
 });
 
 function task(i) { 
@@ -40,7 +40,7 @@ function task(i) {
 	first = false;
 	}
 	else{
-		bot.chat("Jangan ganggu aing")
+		bot.chat("Jangan ganggu ok")
 		first = true;
 	}
   }, 3600000 * i); 
